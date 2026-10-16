@@ -1,0 +1,3 @@
+#!/bin/bash
+# Start bucket sync in the background at container init
+nohup /usr/local/bin/bucket-sync.sh > /var/log/bucket-sync.log 2>&1 &
